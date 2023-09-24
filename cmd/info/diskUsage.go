@@ -2,7 +2,7 @@
 Copyright © 2023 NAME HERE <EMAIL ADDRESS>
 
 */
-package cmd
+package info
 
 import (
 	"fmt"
@@ -24,7 +24,6 @@ var diskUsageCmd = &cobra.Command{
 
 func init() {
 	InfoCmd.AddCommand(diskUsageCmd)
-
 	// Here you will define your flags and configuration settings.
 
 	// Cobra supports Persistent Flags which will work for this command
